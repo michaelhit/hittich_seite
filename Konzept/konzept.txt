@@ -1,16 +1,67 @@
-Portfolio+Blog
-...
+Konzept:
+Internet-Auftritt für Kreative aller Art. Beinhaltet Gallerien für alle Arten von Arbeiten sowie einen Blog für News/Bekanntmachungen.
+Diese sind normalerweise getrennt, oder der Künstler benutzt Facebook/Twitter als Blog-Ersatz, ist dabei aber deren Limitationen gebunden und läuft Gefahr in den Feeds einiger Nutzer unterzugehen. (Die Idee kam, als sich jemand über genau das auf Twitter beschwert hat.)
+Soll neben Bildern auch interaktive 360°-Ansicht-Gallerien für 3D-Arbeiten sowie Video-Player-Gallerien für Filme und Animationen unterstützen.
+So kann auch jemand der z.B. photographiert UND Filme dreht ein übersichtliches, kompaktes Portfolio erstellen.
+Das wird sichergestellt durch das App im Portfolio: 
 
-KPIs
-Views
-Aufenthaltsdauer
 
-...
+Ziel: Betrachter soll so schnell wie möglich beeindruckt werden.
+
+KPIs:
+-Anzahl der 'Shares':
+Wenn die Seite den Betrachter dazu bringt, sie zu verlinken, ist die Präsentation erfolgreich.
+Ist aber natürlich auch abhängig von der Qualität des Contents selbst.
+
+-Aufenthaltsdauer und Views auf den letzten Seiten der Gallerien:
+Hohe Aufenthaltsdauer indiziert eher das Interesse des Betrachters am Content, wenn er dabei aber eine Gallerie bis zum Ende durchforstet signalisiert das, dass er gut auf der Seite navigieren kann.
 
 Tests:
+Die beschriebene Ausgangssituation für die Testpersonen ist, dass sie irgendwo eine Arbeit des Künstlers gesehen haben und jetzt interessiert an dessen anderen Arbeiten sind.
 
 Home:
 
-Blog:
+homewireframe1
+Person 1 will nach einem kurzen Blick aufs Logo sofort auf 'Portfolio' klicken.
+Person 2 will zuerst durch die Vorschaubilder klicken.
+
+>UX-Schwachpunkt: Text wurde von beiden nicht beachtet
+(KPI Aufenthaltsdauer wäre also sehr kurz)
+
+homewireframe2: 
+Im Text: Animation oder Spielerei (z.B. Figur, die sich bei mouse-over bewegt) 
+
+>Social media links und news werden nicht gebraucht: 
+Beides Interessiert den Erstbesucher noch nicht.
+
+homewireframe3:
+Vorschaubilder können volle Länge ausnutzen, Text hat viel Platz, ist damit auffälliger
 
 Portfolio:
+
+portfoliowireframe1
+Beide Testpersonen klicken schnell auf eine Kategorie.(Also auf das Preview Bild selbst.)
+>Kategorie-Box rechts nutzlos
+
+portfoliowireframe2
+Platz für weitere Kategorien, kleinere Previewbilder
+>Nutzer würde immernoch einfach weiterklicken, Nutzen der Seite?
+UX-Schwachpunkt: Klickt ein Nutzer auf eine Kategorie, die ihn interessiert, wird er
+wahrscheinlich nicht mehr zurück und in eine andere Kategorie klicken wollen.
+
+Deshalb: Kategorie-Seite komplett auslassen, statt traditioneller Gallerie jetzt: Web-App (oben beschrieben)
+
+Blog:
+(Testpersonen sollen hier der Blogpost zu einem Bild suchen, dass vor einigen Wochen 
+reingestellt wurde, also ziemlich viel scrollen erforden würde. Der Künstler hat neben Bildern
+viele andere Arten von Arbeiten, die durch die Kategorie-Box sortiert werden.)
+
+blogwireframe1
+Person 1 will zuerst runterscrollen, erst wenn nichts gefunden wurde wird auf eine Kategorie geklickt.
+Person 2 schaut kurz über die aktuellen Posts, klickt dann auf eine Kategorie und scrollt dann.
+>Beide müssen den Text jedes Posts lesen
+
+blogwireframe2
+Zu jedem Post wird ein optionales Vorschaubild hinzugefügt
+Beide Personen kommen so schnell zum Ziel
+
